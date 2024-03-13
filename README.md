@@ -1,4 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection Full Stack Project</title>
+    
+</head>
+
+<body>
+    <div class="container">
         <h1>Object Detection Full Stack Project</h1>
         <img src="demo.gif" alt="Project Demo">
         <p>This project is a full stack application for object detection using Next.js as the frontend framework, TensorFlow.js with MobileNet-v2 as the computer vision model, trained on the COCO dataset. The application allows users to upload images and detect objects within them using the pre-trained model.</p>
