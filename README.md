@@ -1,45 +1,122 @@
-#Object Detection Full Stack Project
+<!DOCTYPE html>
+<html lang="en">
 
-Introduction
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection Full Stack Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
 
-Welcome to our Object Detection project, where we leverage the power of Next.js and TensorFlow's Machine Learning capabilities to identify objects within images. This project utilizes MobileNet-V2, a lightweight deep learning model, trained on the extensive COCO dataset, ensuring accurate and efficient object detection.
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
 
-Features
-Real-time object detection in images
-Integration with TensorFlow.js and MobileNet-V2 model
-Front-end built using Next.js for rapid development and seamless user experience
-Deployment on Vercel for high availability and performance
-Demo videos showcasing the project in action
-How to Use
-Visit our deployment on Vercel at your Vercel deployment link to start detecting objects in your images. For a more in-depth look, check out our demo videos.
+        h1 {
+            color: #333;
+            text-align: center;
+        }
 
-Installation
-To run this project locally:
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
 
-Clone the repository
-git clone https://github.com/yourusername/object-detection-next-js.git
+        p {
+            margin-bottom: 20px;
+        }
 
-Navigate to the project directory
-cd object-detection-next-js
-Run the development server
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-yarn dev
-Open http://localhost:3000 with your browser to see the result.
+        ul li {
+            margin-bottom: 10px;
+        }
 
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
 
-Model
-We use the MobileNet-V2 model for its efficiency and accuracy in object detection, especially on mobile devices. The model is trained on the COCO dataset, which features over 330K images and 80 object categories.
+        a:hover {
+            text-decoration: underline;
+        }
 
-Deployment
-This project is deployed on Vercel, providing an efficient cloud platform for Next.js applications. For details on deploying your own project, follow the guide on Vercel's documentation.
+        .code {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
 
-Demo Videos
-For a comprehensive understanding of how our project works, refer to our demo videos. These guides highlight the functionality and real-world application of our object detection tool.
+<body>
+    <div class="container">
+        <h1>Object Detection Full Stack Project</h1>
+        <img src="demo.gif" alt="Project Demo">
+        <p>This project is a full stack application for object detection using Next.js as the frontend framework, TensorFlow.js with MobileNet-v2 as the computer vision model, trained on the COCO dataset. The application allows users to upload images and detect objects within them using the pre-trained model.</p>
+        <h2>Features</h2>
+        <ul>
+            <li><strong>Object Detection:</strong> Utilizes MobileNet-v2 model for accurate object detection.</li>
+            <li><strong>User-friendly Interface:</strong> Developed with Next.js, providing a smooth and intuitive user experience.</li>
+            <li><strong>Image Upload Support:</strong> Allows users to upload images for object detection.</li>
+            <li><strong>Real-time Detection:</strong> Provides real-time detection of objects within uploaded images.</li>
+        </ul>
+        <h2>Deployment</h2>
+        <p>The project is deployed on <a href="https://vercel.com/">Vercel Cloud</a> and can be accessed <a href="your-vercel-app-link">here</a>.</p>
+        <h2>Usage</h2>
+        <h3>Prerequisites</h3>
+        <ul>
+            <li>Node.js installed on your machine</li>
+        </ul>
+        <h3>Installation</h3>
+        <div class="code">
+            <p>git clone https://github.com/your-username/object-detection-project.git</p>
+            <p>cd object-detection-project</p>
+            <p>npm install</p>
+        </div>
+        <h3>Running the Application</h3>
+        <div class="code">
+            <p>npm run dev</p>
+        </div>
+        <p>Open your browser and visit <code>http://localhost:3000</code> to view the application.</p>
+        <h3>Deploying on Vercel</h3>
+        <p>To deploy the application on Vercel, follow these steps:</p>
+        <ol>
+            <li>Sign up or log in to your Vercel account.</li>
+            <li>Connect your GitHub repository to Vercel.</li>
+            <li>Configure the deployment settings as needed.</li>
+            <li>Deploy the application.</li>
+        </ol>
+        <h2>Demo</h2>
+        <p>Check out the demo video showcasing the project functionality:</p>
+        <ul>
+            <li><a href="link-to-demo-video-1">Demo Video 1</a></li>
+            <li><a href="link-to-demo-video-2">Demo Video 2</a></li>
+        </ul>
+        <h2>Contributing</h2>
+        <p>Contributions are welcome! Please feel free to submit a pull request.</p>
+        <h2>License</h2>
+        <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+    </div>
+</body>
 
-Contributing
-Contributions to improve our project are welcome. Please fork the repo, create a feature branch, and submit a pull request for review.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
-This template aims to provide a starting point for your README. It's important to adjust the content to fit your project's specifics, including actual links, deployment intricacies, and additional sections such as Challenges Encountered, Future Improvements, or Acknowledgments to give comprehensive insights into your project's development journey. Keep the README updated as your project evolves to maintain its relevance and usefulness for users and contributors alike.
+</html>
