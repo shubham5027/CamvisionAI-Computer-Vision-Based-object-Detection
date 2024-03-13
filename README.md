@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Object Detection Full Stack Project</title>
-    
-</head>
-
 <body>
     <div class="container">
         <h1>Object Detection Full Stack Project</h1>
@@ -17,11 +9,10 @@
         <ul>
             <li><strong>Object Detection:</strong> Utilizes MobileNet-v2 model for accurate object detection.</li>
             <li><strong>User-friendly Interface:</strong> Developed with Next.js, providing a smooth and intuitive user experience.</li>
-            <li><strong>Image Upload Support:</strong> Allows users to upload images for object detection.</li>
             <li><strong>Real-time Detection:</strong> Provides real-time detection of objects within uploaded images.</li>
         </ul>
         <h2>Deployment</h2>
-        <p>The project is deployed on <a href="https://vercel.com/">Vercel Cloud</a> and can be accessed <a href="your-vercel-app-link">here</a>.</p>
+        <p>The project is deployed on <a href="https://vercel.com/">Vercel Cloud</a> and can be accessed <a href="https://camvision-ai-computer-vision-based-object-detection.vercel.app/">here</a>.</p>
         <h2>Usage</h2>
         <h3>Prerequisites</h3>
         <ul>
@@ -29,9 +20,9 @@
         </ul>
         <h3>Installation</h3>
         <div class="code">
-            <p>git clone https://github.com/your-username/object-detection-project.git</p>
+            <p>git clone https://github.com/shubham5027/CamvisionAI-computer-vision-based-object-Detection.git</p>
             <p>cd object-detection-project</p>
-            <p>npm install</p>
+            <p>npm install i</p>
         </div>
         <h3>Running the Application</h3>
         <div class="code">
@@ -49,8 +40,9 @@
         <h2>Demo</h2>
         <p>Check out the demo video showcasing the project functionality:</p>
         <ul>
-            <li><a href="link-to-demo-video-1">Demo Video 1</a></li>
-            <li><a href="link-to-demo-video-2">Demo Video 2</a></li>
+           [screen-capture (1).webm](https://github.com/shubham5027/CamvisionAI-Computer-Vision-Based-object-Detection/assets/132193443/7cfa41e6-e621-443c-be50-260b00aacacb)
+![Screenshot 2024-03-13 230528](https://github.com/shubham5027/CamvisionAI-Computer-Vision-Based-object-Detection/assets/132193443/7c261fd5-ef34-44ca-86b3-493779e67c0d)
+
         </ul>
         <h2>Contributing</h2>
         <p>Contributions are welcome! Please feel free to submit a pull request.</p>
