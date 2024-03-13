@@ -1,4 +1,4 @@
-##Object Detection Full Stack Project
+#Object Detection Full Stack Project
 
 Introduction
 
