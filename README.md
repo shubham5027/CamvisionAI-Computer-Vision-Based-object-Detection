@@ -39,11 +39,6 @@
         </ol>
         <h2>Demo</h2>
         <p>Check out the demo video showcasing the project functionality:</p>
-        <ul>
-           [screen-capture (1).webm](https://github.com/shubham5027/CamvisionAI-Computer-Vision-Based-object-Detection/assets/132193443/7cfa41e6-e621-443c-be50-260b00aacacb)
-![Screenshot 2024-03-13 230528](https://github.com/shubham5027/CamvisionAI-Computer-Vision-Based-object-Detection/assets/132193443/7c261fd5-ef34-44ca-86b3-493779e67c0d)
-
-        </ul>
         <h2>Contributing</h2>
         <p>Contributions are welcome! Please feel free to submit a pull request.</p>
         <h2>License</h2>
@@ -52,3 +47,8 @@
 </body>
 
 </html>
+
+![Screenshot 2024-03-13 230528](https://github.com/shubham5027/CamvisionAI-Computer-Vision-Based-object-Detection/assets/132193443/7c261fd5-ef34-44ca-86b3-493779e67c0d)
+
+ [screen-capture (1).webm](https://github.com/shubham5027/CamvisionAI-Computer-Vision-Based-object-Detection/assets/132193443/7cfa41e6-e621-443c-be50-260b00aacacb)
+
